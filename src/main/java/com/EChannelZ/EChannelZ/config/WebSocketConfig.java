@@ -17,7 +17,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         // Allow connections from frontend domain and enable SockJS fallback options
         registry.addEndpoint("/ws")
-                .setAllowedOrigins("https://chat-app-sigma-mocha.vercel.app")
+                .setAllowedOrigins("https://https://chat-app-e-channel-z.vercel.app")
                 .withSockJS();
     }
 
